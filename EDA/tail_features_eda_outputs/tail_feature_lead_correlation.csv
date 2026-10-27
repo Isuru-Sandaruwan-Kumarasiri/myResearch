@@ -1,0 +1,7 @@
+feature,target,services,median_spearman,q25,q75,share_positive,sign_test_p
+max minus mean CPU,next change of mean CPU (direction),1242,-0.0734,-0.1117,-0.0419,0.0564,0.0
+max minus mean CPU,next change of mean CPU (size),1242,0.1186,0.0646,0.1753,0.9251,0.0
+CPU spread,next change of mean CPU (direction),1242,-0.1031,-0.1481,-0.068,0.0274,0.0
+CPU spread,next change of mean CPU (size),1242,0.1401,0.0834,0.2075,0.9509,0.0
+container count change,next change of mean CPU (direction),94,-0.0024,-0.028,0.015,0.4468,0.3533
+container count change,next change of mean CPU (size),94,0.006,-0.0243,0.0398,0.5745,0.1797

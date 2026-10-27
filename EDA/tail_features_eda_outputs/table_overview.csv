@@ -1,0 +1,4 @@
+table,rows,columns
+MSResource,138619760,"msname, msinstanceid, nodeid, cpu_utilization, memory_utilization, timestamp, t_idx"
+MSRTQps,69201236,"timestamp, msname, msinstanceid, t_idx, HTTP_MCR, HTTP_RT, consumerMQ_MCR, consumerMQ_RT, consumerRPC_MCR, consumerRPC_RT, providerRPC_MCR, providerRPC_RT"
+MSCallGraph,506254776,"traceid, timestamp, rpcid, UM, rpctype, DM, interface, rt, t_idx, rt_abs, rt_direction"

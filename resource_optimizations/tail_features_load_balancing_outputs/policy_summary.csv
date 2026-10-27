@@ -1,0 +1,35 @@
+source,multiplier,balancer,scale_out,overloaded_container_minutes_percent,callee_minutes_with_overload_percent,overloaded_calls_percent,mean_excess_calls_per_second,mean_peak_cpu_percent,cpu_imbalance,jain_fairness,added_container_minutes,routing_change,policy
+oracle,1.0,Least Loaded,False,0.0,0.0,0.0,0.0,26.384,0.018,1.0,0.0,0.002,Least Loaded
+oracle,1.0,Least Loaded,True,0.0,0.0,0.0,0.0,26.384,0.018,1.0,0.0,0.002,Least Loaded + scale-out
+oracle,1.0,Linear Programming,False,0.0,0.0,0.0,0.0,25.648,0.007,0.999,0.0,0.001,Linear Programming
+oracle,1.0,Linear Programming,True,0.0,0.0,0.0,0.0,25.648,0.007,0.999,0.0,0.001,Linear Programming + scale-out
+oracle,1.0,Observed,False,0.022,3.241,0.271,1238.947,32.545,0.115,0.983,0.0,0.008,Observed
+oracle,1.0,Round Robin,False,0.0,0.0,0.0,0.0,31.076,0.088,0.992,0.0,0.0,Round Robin
+oracle,1.0,Round Robin,True,0.0,0.0,0.0,0.0,31.076,0.088,0.992,0.0,0.0,Round Robin + scale-out
+oracle,1.0,Weighted Routing,False,0.0,0.0,0.0,0.0,29.337,0.064,0.995,0.0,0.0,Weighted Routing
+oracle,1.0,Weighted Routing,True,0.0,0.0,0.0,0.0,29.337,0.064,0.995,0.0,0.0,Weighted Routing + scale-out
+oracle,1.5,Least Loaded,False,0.24,1.1,0.357,152.372,34.62,0.02,1.0,0.0,0.002,Least Loaded
+oracle,1.5,Least Loaded,True,0.052,1.1,0.08,5.94,34.605,0.02,1.0,90.0,0.002,Least Loaded + scale-out
+oracle,1.5,Linear Programming,False,0.0,0.0,0.0,0.0,33.443,0.0,1.0,0.0,0.001,Linear Programming
+oracle,1.5,Linear Programming,True,0.0,0.0,0.0,0.0,33.429,0.0,1.0,90.0,0.001,Linear Programming + scale-out
+oracle,1.5,Observed,False,0.817,10.822,2.41,8150.175,41.986,0.105,0.983,0.0,0.008,Observed
+oracle,1.5,Round Robin,False,0.476,3.993,0.676,445.869,39.041,0.068,0.995,0.0,0.0,Round Robin
+oracle,1.5,Round Robin,True,0.318,3.993,0.443,234.864,39.027,0.068,0.995,90.0,0.0,Round Robin + scale-out
+oracle,1.5,Weighted Routing,False,0.004,0.116,0.007,0.303,36.437,0.04,0.998,0.0,0.0,Weighted Routing
+oracle,1.5,Weighted Routing,True,0.0,0.0,0.0,0.0,36.421,0.04,0.998,90.0,0.0,Weighted Routing + scale-out
+persistence,1.0,Least Loaded,False,0.001,0.058,0.059,1007.623,26.876,0.02,0.999,0.0,0.002,Least Loaded
+persistence,1.0,Least Loaded,True,0.001,0.058,0.059,1007.623,26.876,0.02,0.999,0.0,0.002,Least Loaded + scale-out
+persistence,1.0,Linear Programming,False,0.0,0.0,0.0,0.0,25.747,0.008,0.999,0.0,0.001,Linear Programming
+persistence,1.0,Linear Programming,True,0.0,0.0,0.0,0.0,25.747,0.008,0.999,0.0,0.001,Linear Programming + scale-out
+persistence,1.0,Round Robin,False,0.0,0.0,0.0,0.0,31.076,0.088,0.992,0.0,0.0,Round Robin
+persistence,1.0,Round Robin,True,0.0,0.0,0.0,0.0,31.076,0.088,0.992,0.0,0.0,Round Robin + scale-out
+persistence,1.0,Weighted Routing,False,0.0,0.0,0.0,0.0,29.337,0.064,0.995,0.0,0.0,Weighted Routing
+persistence,1.0,Weighted Routing,True,0.0,0.0,0.0,0.0,29.337,0.064,0.995,0.0,0.0,Weighted Routing + scale-out
+persistence,1.5,Least Loaded,False,0.242,1.157,0.417,1636.843,35.194,0.022,0.999,0.0,0.002,Least Loaded
+persistence,1.5,Least Loaded,True,0.069,1.157,0.161,1497.14,35.18,0.022,0.999,79.0,0.002,Least Loaded + scale-out
+persistence,1.5,Linear Programming,False,0.0,0.0,0.0,0.0,33.556,0.001,1.0,0.0,0.001,Linear Programming
+persistence,1.5,Linear Programming,True,0.0,0.0,0.0,0.0,33.543,0.001,1.0,79.0,0.001,Linear Programming + scale-out
+persistence,1.5,Round Robin,False,0.476,3.993,0.676,445.869,39.041,0.068,0.995,0.0,0.0,Round Robin
+persistence,1.5,Round Robin,True,0.328,3.993,0.458,251.205,39.029,0.068,0.995,79.0,0.0,Round Robin + scale-out
+persistence,1.5,Weighted Routing,False,0.004,0.116,0.007,0.303,36.437,0.04,0.998,0.0,0.0,Weighted Routing
+persistence,1.5,Weighted Routing,True,0.0,0.0,0.0,0.0,36.423,0.04,0.998,79.0,0.0,Weighted Routing + scale-out

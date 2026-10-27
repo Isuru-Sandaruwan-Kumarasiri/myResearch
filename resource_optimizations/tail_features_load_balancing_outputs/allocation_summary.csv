@@ -1,0 +1,117 @@
+multiplier,configuration,source,mean_excess_calls_per_second,overloaded_container_minutes_percent,added_container_minutes,added_memory_share,jain_fairness,routing_change,scale_events,acted_percent
+1.0,Linear Programming + capacity check,DCRNN (event stream),37.118,0.001,0.0,0.0,0.988,0.01,0.0,3.935
+1.0,Linear Programming + capacity check,DCRNN (snapshot),37.118,0.001,0.0,0.0,0.988,0.01,0.0,3.935
+1.0,Linear Programming + capacity check,GraphMixer (event stream),37.118,0.001,0.0,0.0,0.988,0.01,0.0,3.935
+1.0,Linear Programming + capacity check,GraphMixer (snapshot),11.406,0.0,0.0,0.0,0.988,0.01,0.0,3.993
+1.0,Linear Programming + capacity check,Oracle (CPU),1238.947,0.022,0.0,0.0,0.983,0.008,0.0,0.0
+1.0,Linear Programming + capacity check,Oracle (calls),49.06,0.002,0.0,0.0,0.987,0.011,0.0,3.125
+1.0,Linear Programming + capacity check,Persistence (CPU),11.406,0.0,0.0,0.0,0.988,0.01,0.0,3.993
+1.0,Linear Programming + capacity check,Persistence (calls),43.788,0.002,0.0,0.0,0.987,0.01,0.0,3.414
+1.0,Linear Programming + capacity check,TGAT (event stream),37.118,0.001,0.0,0.0,0.988,0.01,0.0,3.935
+1.0,Linear Programming + capacity check,TGAT (snapshot),37.118,0.001,0.0,0.0,0.988,0.01,0.0,3.935
+1.0,Linear Programming + capacity check,TGCN (event stream),37.118,0.001,0.0,0.0,0.988,0.01,0.0,3.935
+1.0,Linear Programming + capacity check,TGCN (snapshot),11.406,0.0,0.0,0.0,0.988,0.01,0.0,3.993
+1.0,Linear Programming + capacity check,TGN (event stream),37.118,0.001,0.0,0.0,0.988,0.01,0.0,3.935
+1.0,Linear Programming + capacity check,TGN (snapshot),37.118,0.001,0.0,0.0,0.988,0.01,0.0,3.935
+1.0,Linear Programming + every minute,DCRNN (event stream),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,DCRNN (snapshot),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,GraphMixer (event stream),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,GraphMixer (snapshot),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,Oracle (CPU),242.464,0.006,0.0,0.0,0.997,0.002,0.0,100.0
+1.0,Linear Programming + every minute,Oracle (calls),0.0,0.0,0.0,0.0,0.999,0.001,0.0,100.0
+1.0,Linear Programming + every minute,Persistence (CPU),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,Persistence (calls),0.0,0.0,0.0,0.0,0.999,0.001,0.0,100.0
+1.0,Linear Programming + every minute,TGAT (event stream),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,TGAT (snapshot),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,TGCN (event stream),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,TGCN (snapshot),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,TGN (event stream),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Linear Programming + every minute,TGN (snapshot),0.0,0.0,0.0,0.0,0.999,0.002,0.0,100.0
+1.0,Observed routing,Persistence (calls),1238.947,0.022,0.0,0.0,0.983,0.008,0.0,0.0
+1.0,Round Robin + reactive scale-out,Persistence (calls),0.0,0.0,0.0,0.0,0.992,0.0,0.0,100.0
+1.0,Weighted Routing + capacity check,DCRNN (event stream),37.118,0.001,0.0,0.0,0.988,0.009,0.0,3.935
+1.0,Weighted Routing + capacity check,DCRNN (snapshot),37.118,0.001,0.0,0.0,0.988,0.009,0.0,3.935
+1.0,Weighted Routing + capacity check,GraphMixer (event stream),37.118,0.001,0.0,0.0,0.988,0.009,0.0,3.935
+1.0,Weighted Routing + capacity check,GraphMixer (snapshot),11.406,0.0,0.0,0.0,0.988,0.009,0.0,3.993
+1.0,Weighted Routing + capacity check,Oracle (CPU),1238.947,0.022,0.0,0.0,0.983,0.008,0.0,0.0
+1.0,Weighted Routing + capacity check,Oracle (calls),49.06,0.002,0.0,0.0,0.987,0.01,0.0,3.125
+1.0,Weighted Routing + capacity check,Persistence (CPU),11.406,0.0,0.0,0.0,0.988,0.009,0.0,3.993
+1.0,Weighted Routing + capacity check,Persistence (calls),43.788,0.002,0.0,0.0,0.987,0.009,0.0,3.414
+1.0,Weighted Routing + capacity check,TGAT (event stream),37.118,0.001,0.0,0.0,0.988,0.009,0.0,3.935
+1.0,Weighted Routing + capacity check,TGAT (snapshot),37.118,0.001,0.0,0.0,0.988,0.009,0.0,3.935
+1.0,Weighted Routing + capacity check,TGCN (event stream),37.118,0.001,0.0,0.0,0.988,0.009,0.0,3.935
+1.0,Weighted Routing + capacity check,TGCN (snapshot),11.406,0.0,0.0,0.0,0.988,0.009,0.0,3.993
+1.0,Weighted Routing + capacity check,TGN (event stream),37.118,0.001,0.0,0.0,0.988,0.009,0.0,3.935
+1.0,Weighted Routing + capacity check,TGN (snapshot),37.118,0.001,0.0,0.0,0.988,0.009,0.0,3.935
+1.0,Weighted Routing + every minute,DCRNN (event stream),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,DCRNN (snapshot),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,GraphMixer (event stream),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,GraphMixer (snapshot),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,Oracle (CPU),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,Oracle (calls),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,Persistence (CPU),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,Persistence (calls),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,TGAT (event stream),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,TGAT (snapshot),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,TGCN (event stream),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,TGCN (snapshot),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,TGN (event stream),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.0,Weighted Routing + every minute,TGN (snapshot),0.0,0.0,0.0,0.0,0.995,0.0,0.0,100.0
+1.5,Linear Programming + capacity check,DCRNN (event stream),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Linear Programming + capacity check,DCRNN (snapshot),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Linear Programming + capacity check,GraphMixer (event stream),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Linear Programming + capacity check,GraphMixer (snapshot),10.222,0.002,54.0,34.533,0.993,0.006,6.0,11.574
+1.5,Linear Programming + capacity check,Oracle (CPU),7617.037,0.336,0.0,0.0,0.983,0.008,0.0,2.72
+1.5,Linear Programming + capacity check,Oracle (calls),9.987,0.001,90.0,57.555,0.993,0.006,10.0,10.995
+1.5,Linear Programming + capacity check,Persistence (CPU),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Linear Programming + capacity check,Persistence (calls),9.838,0.0,120.0,76.738,0.993,0.006,13.0,11.4
+1.5,Linear Programming + capacity check,TGAT (event stream),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.632
+1.5,Linear Programming + capacity check,TGAT (snapshot),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Linear Programming + capacity check,TGCN (event stream),10.22,0.001,50.0,31.975,0.993,0.006,6.0,11.574
+1.5,Linear Programming + capacity check,TGCN (snapshot),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Linear Programming + capacity check,TGN (event stream),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Linear Programming + capacity check,TGN (snapshot),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Linear Programming + every minute,DCRNN (event stream),0.0,0.0,56.0,35.812,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,DCRNN (snapshot),0.0,0.0,56.0,35.812,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,GraphMixer (event stream),0.0,0.0,56.0,35.812,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,GraphMixer (snapshot),0.001,0.0,54.0,34.533,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,Oracle (CPU),767.197,0.04,0.0,0.0,0.998,0.002,0.0,100.0
+1.5,Linear Programming + every minute,Oracle (calls),0.0,0.0,90.0,57.555,1.0,0.001,10.0,100.0
+1.5,Linear Programming + every minute,Persistence (CPU),0.0,0.0,56.0,35.812,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,Persistence (calls),0.0,0.0,120.0,76.738,1.0,0.001,13.0,100.0
+1.5,Linear Programming + every minute,TGAT (event stream),0.0,0.0,56.0,35.812,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,TGAT (snapshot),0.0,0.0,56.0,35.812,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,TGCN (event stream),0.0,0.0,50.0,31.975,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,TGCN (snapshot),0.0,0.0,56.0,35.812,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,TGN (event stream),0.0,0.0,56.0,35.812,1.0,0.001,6.0,100.0
+1.5,Linear Programming + every minute,TGN (snapshot),0.0,0.0,56.0,35.812,1.0,0.001,6.0,100.0
+1.5,Observed routing,Persistence (calls),8150.175,0.817,0.0,0.0,0.983,0.008,0.0,0.0
+1.5,Round Robin + reactive scale-out,Persistence (calls),199.261,0.293,120.0,76.738,0.995,0.0,13.0,100.0
+1.5,Weighted Routing + capacity check,DCRNN (event stream),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + capacity check,DCRNN (snapshot),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + capacity check,GraphMixer (event stream),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + capacity check,GraphMixer (snapshot),10.22,0.001,54.0,34.533,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + capacity check,Oracle (CPU),7615.837,0.327,0.0,0.0,0.983,0.008,0.0,2.72
+1.5,Weighted Routing + capacity check,Oracle (calls),9.987,0.001,90.0,57.555,0.993,0.006,10.0,10.995
+1.5,Weighted Routing + capacity check,Persistence (CPU),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + capacity check,Persistence (calls),9.838,0.0,120.0,76.738,0.993,0.006,13.0,11.4
+1.5,Weighted Routing + capacity check,TGAT (event stream),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.632
+1.5,Weighted Routing + capacity check,TGAT (snapshot),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + capacity check,TGCN (event stream),10.22,0.001,50.0,31.975,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + capacity check,TGCN (snapshot),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + capacity check,TGN (event stream),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + capacity check,TGN (snapshot),10.22,0.001,56.0,35.812,0.993,0.006,6.0,11.574
+1.5,Weighted Routing + every minute,DCRNN (event stream),0.0,0.0,56.0,35.812,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,DCRNN (snapshot),0.0,0.0,56.0,35.812,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,GraphMixer (event stream),0.0,0.0,56.0,35.812,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,GraphMixer (snapshot),0.0,0.0,54.0,34.533,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,Oracle (CPU),0.303,0.004,0.0,0.0,0.998,0.0,0.0,100.0
+1.5,Weighted Routing + every minute,Oracle (calls),0.0,0.0,90.0,57.555,0.998,0.0,10.0,100.0
+1.5,Weighted Routing + every minute,Persistence (CPU),0.0,0.0,56.0,35.812,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,Persistence (calls),0.0,0.0,120.0,76.738,0.998,0.0,13.0,100.0
+1.5,Weighted Routing + every minute,TGAT (event stream),0.0,0.0,56.0,35.812,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,TGAT (snapshot),0.0,0.0,56.0,35.812,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,TGCN (event stream),0.0,0.0,50.0,31.975,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,TGCN (snapshot),0.0,0.0,56.0,35.812,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,TGN (event stream),0.0,0.0,56.0,35.812,0.998,0.0,6.0,100.0
+1.5,Weighted Routing + every minute,TGN (snapshot),0.0,0.0,56.0,35.812,0.998,0.0,6.0,100.0

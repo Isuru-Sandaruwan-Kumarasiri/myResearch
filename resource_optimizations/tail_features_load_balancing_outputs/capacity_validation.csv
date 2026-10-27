@@ -1,0 +1,17 @@
+label,test_container_minutes,mean_absolute_error_percent,coverage_with_margin
+Callee 3,19440,3.539,0.976
+Callee 4,11232,1.706,0.87
+Callee 5,27216,3.364,0.917
+Callee 7,17712,1.981,0.948
+Callee 8,35071,2.712,0.928
+Callee 9,21492,3.993,0.889
+Callee 10,51300,2.182,0.941
+Callee 11,49464,3.187,0.944
+Callee 12,48516,1.708,0.923
+Callee 13,7776,13.923,1.0
+Callee 14,37584,2.955,0.922
+Callee 15,20736,2.51,0.941
+Callee 16,43740,1.86,0.91
+Callee 17,18900,3.556,0.958
+Callee 19,9504,2.909,0.929
+Callee 20,27432,1.692,0.916

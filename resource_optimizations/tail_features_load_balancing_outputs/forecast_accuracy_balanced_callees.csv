@@ -1,0 +1,13 @@
+source,calibration_mae_calls,test_mae_calls,test_coverage_with_margin,test_mae_cpu_points
+Persistence (calls),2494.955,1841.753,0.94,
+GraphMixer (snapshot),18787.416,23652.827,0.703,0.351
+TGAT (event stream),18824.203,23519.046,0.719,0.348
+TGCN (event stream),18868.587,23671.265,0.706,0.351
+DCRNN (event stream),18894.459,23630.545,0.713,0.35
+TGN (snapshot),18919.011,23700.085,0.711,0.352
+Persistence (CPU),18923.97,23580.421,0.711,0.35
+TGAT (snapshot),18945.855,23699.979,0.714,0.348
+GraphMixer (event stream),18958.738,23789.88,0.708,0.349
+TGN (event stream),18969.529,23694.682,0.711,0.353
+TGCN (snapshot),18976.988,23830.238,0.713,0.347
+DCRNN (snapshot),18990.133,23637.823,0.716,0.344

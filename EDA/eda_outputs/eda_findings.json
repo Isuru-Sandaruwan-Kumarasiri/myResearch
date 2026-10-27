@@ -1,0 +1,28 @@
+{
+  "msrtqps_minutes_present": 720,
+  "resource_instance_minutes_with_traffic": 0.9983950413761623,
+  "cpu_median_percent": 15.941666666573534,
+  "cpu_p95_percent": 43.42499999950329,
+  "memory_median_percent": 66.79503917694092,
+  "cpu_memory_pooled_pearson": 0.2813065282118956,
+  "cpu_memory_pooled_spearman": 0.2969999465731408,
+  "cpu_memory_within_service_median_spearman": -0.1670529521340383,
+  "traffic_gini": 0.8706124720289807,
+  "top_1_percent_services_call_share": 0.34844092885751016,
+  "top_10_percent_services_call_share": 0.7992912181574936,
+  "load_imbalance_median": 0.0710360841242582,
+  "call_rate_cpu_within_service_median_spearman": 0.5959014517131912,
+  "call_rate_memory_within_service_median_spearman": -0.06418744433079641,
+  "suspect_rt_columns": [
+    "HTTP_RT",
+    "consumerMQ_RT"
+  ],
+  "unique_sampled_calls": 385704531,
+  "burst_minutes": 3,
+  "connected_pairs_lag_0_median_correlation": 0.025469213357858303,
+  "unconnected_pairs_lag_0_median_correlation": 0.002041871605461185,
+  "cpu_elasticity_median": 0.3162832262685946,
+  "burstiness_median": -0.634440702702705,
+  "call_rate_lag_1_autocorrelation_median": 0.7506526418014376,
+  "cpu_lag_1_autocorrelation_median": 0.9362729279000063
+}

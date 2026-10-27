@@ -1,0 +1,4 @@
+paradigm,calls_per_second,share_percent
+providerRPC_MCR,6127357271.45,71.83
+HTTP_MCR,852327197.58,9.99
+consumerMQ_MCR,1550893297.86,18.18

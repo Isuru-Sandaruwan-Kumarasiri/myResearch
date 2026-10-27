@@ -1,0 +1,121 @@
+multiplier,source,compared_with,metric,minutes,mean_difference,low,high,p,p_holm,p_holm_all,primary_family
+1.0,DCRNN (event stream),Persistence (CPU),excess calls per second,108,25.7116,-32.8599,84.2832,0.3466,1.0,1.0,False
+1.0,DCRNN (event stream),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,DCRNN (event stream),Persistence (calls),excess calls per second,108,-6.6701,-19.7352,6.3951,0.2779,1.0,1.0,False
+1.0,DCRNN (event stream),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,DCRNN (event stream),Conventional,excess calls per second,108,37.1176,-16.9782,91.2133,0.155,1.0,1.0,False
+1.0,DCRNN (event stream),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.0,DCRNN (snapshot),Persistence (CPU),excess calls per second,108,25.7116,-32.8599,84.2832,0.3466,1.0,1.0,False
+1.0,DCRNN (snapshot),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,DCRNN (snapshot),Persistence (calls),excess calls per second,108,-6.6701,-19.7352,6.3951,0.2779,1.0,1.0,False
+1.0,DCRNN (snapshot),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,DCRNN (snapshot),Conventional,excess calls per second,108,37.1176,-16.9782,91.2133,0.155,1.0,1.0,False
+1.0,DCRNN (snapshot),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.0,GraphMixer (event stream),Persistence (CPU),excess calls per second,108,25.7116,-32.8599,84.2832,0.3466,1.0,1.0,False
+1.0,GraphMixer (event stream),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,GraphMixer (event stream),Persistence (calls),excess calls per second,108,-6.6701,-19.7352,6.3951,0.2779,1.0,1.0,False
+1.0,GraphMixer (event stream),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,GraphMixer (event stream),Conventional,excess calls per second,108,37.1176,-16.9782,91.2133,0.155,1.0,1.0,False
+1.0,GraphMixer (event stream),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.0,GraphMixer (snapshot),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,False
+1.0,GraphMixer (snapshot),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,GraphMixer (snapshot),Persistence (calls),excess calls per second,108,-32.3817,-91.2143,26.4508,0.2445,1.0,1.0,False
+1.0,GraphMixer (snapshot),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,GraphMixer (snapshot),Conventional,excess calls per second,108,11.4059,-13.8819,36.6937,0.3342,1.0,1.0,False
+1.0,GraphMixer (snapshot),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGAT (event stream),Persistence (CPU),excess calls per second,108,25.7116,-32.8599,84.2832,0.3466,1.0,1.0,False
+1.0,TGAT (event stream),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGAT (event stream),Persistence (calls),excess calls per second,108,-6.6701,-19.7352,6.3951,0.2779,1.0,1.0,False
+1.0,TGAT (event stream),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGAT (event stream),Conventional,excess calls per second,108,37.1176,-16.9782,91.2133,0.155,1.0,1.0,False
+1.0,TGAT (event stream),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGAT (snapshot),Persistence (CPU),excess calls per second,108,25.7116,-32.8599,84.2832,0.3466,1.0,1.0,False
+1.0,TGAT (snapshot),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGAT (snapshot),Persistence (calls),excess calls per second,108,-6.6701,-19.7352,6.3951,0.2779,1.0,1.0,False
+1.0,TGAT (snapshot),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGAT (snapshot),Conventional,excess calls per second,108,37.1176,-16.9782,91.2133,0.155,1.0,1.0,False
+1.0,TGAT (snapshot),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGCN (event stream),Persistence (CPU),excess calls per second,108,25.7116,-32.8599,84.2832,0.3466,1.0,1.0,False
+1.0,TGCN (event stream),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGCN (event stream),Persistence (calls),excess calls per second,108,-6.6701,-19.7352,6.3951,0.2779,1.0,1.0,False
+1.0,TGCN (event stream),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGCN (event stream),Conventional,excess calls per second,108,37.1176,-16.9782,91.2133,0.155,1.0,1.0,False
+1.0,TGCN (event stream),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGCN (snapshot),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,False
+1.0,TGCN (snapshot),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGCN (snapshot),Persistence (calls),excess calls per second,108,-32.3817,-91.2143,26.4508,0.2445,1.0,1.0,False
+1.0,TGCN (snapshot),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGCN (snapshot),Conventional,excess calls per second,108,11.4059,-13.8819,36.6937,0.3342,1.0,1.0,False
+1.0,TGCN (snapshot),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGN (event stream),Persistence (CPU),excess calls per second,108,25.7116,-32.8599,84.2832,0.3466,1.0,1.0,False
+1.0,TGN (event stream),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGN (event stream),Persistence (calls),excess calls per second,108,-6.6701,-19.7352,6.3951,0.2779,1.0,1.0,False
+1.0,TGN (event stream),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGN (event stream),Conventional,excess calls per second,108,37.1176,-16.9782,91.2133,0.155,1.0,1.0,False
+1.0,TGN (event stream),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGN (snapshot),Persistence (CPU),excess calls per second,108,25.7116,-32.8599,84.2832,0.3466,1.0,1.0,False
+1.0,TGN (snapshot),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGN (snapshot),Persistence (calls),excess calls per second,108,-6.6701,-19.7352,6.3951,0.2779,1.0,1.0,False
+1.0,TGN (snapshot),Persistence (calls),extra containers,108,0.0,0.0,0.0,,,,False
+1.0,TGN (snapshot),Conventional,excess calls per second,108,37.1176,-16.9782,91.2133,0.155,1.0,1.0,False
+1.0,TGN (snapshot),Conventional,extra containers,108,0.0,0.0,0.0,,,,False
+1.5,DCRNN (event stream),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,True
+1.5,DCRNN (event stream),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.5,DCRNN (event stream),Persistence (calls),excess calls per second,108,0.3824,-0.107,0.8718,0.1109,1.0,1.0,False
+1.5,DCRNN (event stream),Persistence (calls),extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,DCRNN (event stream),Conventional,excess calls per second,108,-189.0414,-370.8253,-7.2575,0.0431,0.4313,1.0,False
+1.5,DCRNN (event stream),Conventional,extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,DCRNN (snapshot),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,True
+1.5,DCRNN (snapshot),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.5,DCRNN (snapshot),Persistence (calls),excess calls per second,108,0.3824,-0.107,0.8718,0.1109,1.0,1.0,False
+1.5,DCRNN (snapshot),Persistence (calls),extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,DCRNN (snapshot),Conventional,excess calls per second,108,-189.0414,-370.8253,-7.2575,0.0431,0.4313,1.0,False
+1.5,DCRNN (snapshot),Conventional,extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,GraphMixer (event stream),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,True
+1.5,GraphMixer (event stream),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.5,GraphMixer (event stream),Persistence (calls),excess calls per second,108,0.3824,-0.107,0.8718,0.1109,1.0,1.0,False
+1.5,GraphMixer (event stream),Persistence (calls),extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,GraphMixer (event stream),Conventional,excess calls per second,108,-189.0414,-370.8253,-7.2575,0.0431,0.4313,1.0,False
+1.5,GraphMixer (event stream),Conventional,extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,GraphMixer (snapshot),Persistence (CPU),excess calls per second,108,0.0014,-0.0032,0.0061,0.496,0.496,1.0,True
+1.5,GraphMixer (snapshot),Persistence (CPU),extra containers,108,-0.0185,-0.0603,0.0232,0.342,0.684,1.0,False
+1.5,GraphMixer (snapshot),Persistence (calls),excess calls per second,108,0.3839,-0.1049,0.8726,0.1094,1.0,1.0,False
+1.5,GraphMixer (snapshot),Persistence (calls),extra containers,108,-0.6111,-1.5722,0.3499,0.1842,1.0,1.0,False
+1.5,GraphMixer (snapshot),Conventional,excess calls per second,108,-189.04,-370.8222,-7.2577,0.0431,0.4313,1.0,False
+1.5,GraphMixer (snapshot),Conventional,extra containers,108,-0.6111,-1.5722,0.3499,0.1842,1.0,1.0,False
+1.5,TGAT (event stream),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,True
+1.5,TGAT (event stream),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.5,TGAT (event stream),Persistence (calls),excess calls per second,108,0.3824,-0.107,0.8718,0.1109,1.0,1.0,False
+1.5,TGAT (event stream),Persistence (calls),extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,TGAT (event stream),Conventional,excess calls per second,108,-189.0414,-370.8253,-7.2575,0.0431,0.4313,1.0,False
+1.5,TGAT (event stream),Conventional,extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,TGAT (snapshot),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,True
+1.5,TGAT (snapshot),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.5,TGAT (snapshot),Persistence (calls),excess calls per second,108,0.3824,-0.107,0.8718,0.1109,1.0,1.0,False
+1.5,TGAT (snapshot),Persistence (calls),extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,TGAT (snapshot),Conventional,excess calls per second,108,-189.0414,-370.8253,-7.2575,0.0431,0.4313,1.0,False
+1.5,TGAT (snapshot),Conventional,extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,TGCN (event stream),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,True
+1.5,TGCN (event stream),Persistence (CPU),extra containers,108,-0.0556,-0.1839,0.0728,0.3531,0.684,1.0,False
+1.5,TGCN (event stream),Persistence (calls),excess calls per second,108,0.3824,-0.107,0.8718,0.1109,1.0,1.0,False
+1.5,TGCN (event stream),Persistence (calls),extra containers,108,-0.6481,-1.6918,0.3955,0.1936,1.0,1.0,False
+1.5,TGCN (event stream),Conventional,excess calls per second,108,-189.0414,-370.8253,-7.2575,0.0431,0.4313,1.0,False
+1.5,TGCN (event stream),Conventional,extra containers,108,-0.6481,-1.6918,0.3955,0.1936,1.0,1.0,False
+1.5,TGCN (snapshot),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,True
+1.5,TGCN (snapshot),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.5,TGCN (snapshot),Persistence (calls),excess calls per second,108,0.3824,-0.107,0.8718,0.1109,1.0,1.0,False
+1.5,TGCN (snapshot),Persistence (calls),extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,TGCN (snapshot),Conventional,excess calls per second,108,-189.0414,-370.8253,-7.2575,0.0431,0.4313,1.0,False
+1.5,TGCN (snapshot),Conventional,extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,TGN (event stream),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,True
+1.5,TGN (event stream),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.5,TGN (event stream),Persistence (calls),excess calls per second,108,0.3824,-0.107,0.8718,0.1109,1.0,1.0,False
+1.5,TGN (event stream),Persistence (calls),extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,TGN (event stream),Conventional,excess calls per second,108,-189.0414,-370.8253,-7.2575,0.0431,0.4313,1.0,False
+1.5,TGN (event stream),Conventional,extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,TGN (snapshot),Persistence (CPU),excess calls per second,108,0.0,0.0,0.0,,,,True
+1.5,TGN (snapshot),Persistence (CPU),extra containers,108,0.0,0.0,0.0,,,,False
+1.5,TGN (snapshot),Persistence (calls),excess calls per second,108,0.3824,-0.107,0.8718,0.1109,1.0,1.0,False
+1.5,TGN (snapshot),Persistence (calls),extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False
+1.5,TGN (snapshot),Conventional,excess calls per second,108,-189.0414,-370.8253,-7.2575,0.0431,0.4313,1.0,False
+1.5,TGN (snapshot),Conventional,extra containers,108,-0.5926,-1.5203,0.3351,0.1823,1.0,1.0,False

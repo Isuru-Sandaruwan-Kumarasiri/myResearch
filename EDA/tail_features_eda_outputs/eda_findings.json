@@ -1,0 +1,47 @@
+{
+  "msrtqps_minutes_present": 720,
+  "resource_instance_minutes_with_traffic": 0.9983950413761623,
+  "cpu_median_percent": 15.941666666573534,
+  "cpu_p95_percent": 43.43333333323244,
+  "memory_median_percent": 66.79513454437256,
+  "cpu_memory_pooled_pearson": 0.28130652821189306,
+  "cpu_memory_pooled_spearman": 0.29763181644410946,
+  "cpu_memory_within_service_median_spearman": -0.1670529521340383,
+  "traffic_gini": 0.8706124720289807,
+  "top_1_percent_services_call_share": 0.3484409288575102,
+  "top_10_percent_services_call_share": 0.7992912181574936,
+  "load_imbalance_median": 0.07103608412425824,
+  "call_rate_cpu_within_service_median_spearman": 0.5959014517131912,
+  "call_rate_memory_within_service_median_spearman": -0.06418744433079641,
+  "suspect_rt_columns": [
+    "HTTP_RT",
+    "consumerMQ_RT"
+  ],
+  "unique_sampled_calls": 385704531,
+  "burst_minutes": 3,
+  "connected_pairs_lag_0_median_correlation": 0.025469213357857297,
+  "unconnected_pairs_lag_0_median_correlation": 0.0020418716054612573,
+  "cpu_elasticity_median": 0.31628322626859473,
+  "burstiness_median": -0.634440702702705,
+  "fano_factor_median": 268.23531144487697,
+  "over_dispersed_service_share": 0.9814957594448728,
+  "hidden_hot_container_share": 0.8106154996262148,
+  "container_count_change_share": 0.00042703881676087185,
+  "edge_minutes_under_5_records_share": 0.48722708834817224,
+  "container_shape_by_paradigm": {
+    "providerRPC": "right skewed, heavy tailed",
+    "HTTP": "log normal like",
+    "consumerMQ": "log normal like",
+    "consumerRPC": "right skewed, heavy tailed",
+    "providerRPC response time": "log normal like",
+    "consumerRPC response time": "log normal like"
+  },
+  "cluster_shape_by_paradigm": {
+    "providerRPC": "left skewed",
+    "HTTP": "right skewed, heavy tailed",
+    "consumerMQ": "left skewed, heavy tailed",
+    "consumerRPC": "left skewed"
+  },
+  "call_rate_lag_1_autocorrelation_median": 0.7506526418014374,
+  "cpu_lag_1_autocorrelation_median": 0.936272927900006
+}

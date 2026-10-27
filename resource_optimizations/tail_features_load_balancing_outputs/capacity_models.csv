@@ -1,0 +1,21 @@
+label,spearman,cpu_percent_per_100_calls,median_baseline_percent,margin_percent,new_container_safe_calls_per_second,usable
+Callee 1,0.17,0.041,,,,False
+Callee 2,0.299,0.122,,,,False
+Callee 3,0.679,0.708,17.894,3.033,6934.501,True
+Callee 4,0.888,1.281,3.14,1.446,5107.878,True
+Callee 5,0.501,6.744,-0.431,2.891,1001.417,True
+Callee 6,0.137,0.824,,,,False
+Callee 7,0.422,1.484,6.538,1.02,4208.957,True
+Callee 8,0.311,2.127,11.415,1.402,2687.865,True
+Callee 9,0.585,2.39,14.586,2.595,2209.959,True
+Callee 10,0.656,2.328,3.926,0.846,2801.564,True
+Callee 11,0.874,7.478,13.509,2.299,724.675,True
+Callee 12,0.647,4.57,4.161,1.275,1412.655,True
+Callee 13,0.574,1.047,24.717,9.359,3431.784,True
+Callee 14,0.552,9.071,2.269,2.531,718.79,True
+Callee 15,0.421,2.946,13.747,2.105,1838.177,True
+Callee 16,0.771,7.385,7.909,1.99,813.875,True
+Callee 17,0.598,2.565,17.631,2.281,1952.872,True
+Callee 18,0.277,2.727,,,,False
+Callee 19,0.603,3.043,8.023,2.098,1967.855,True
+Callee 20,0.829,2.275,5.895,0.869,2779.473,True

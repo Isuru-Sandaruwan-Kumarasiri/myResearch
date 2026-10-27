@@ -1,0 +1,5 @@
+series,CPU median,Memory median,Total call rate,Median response time
+CPU median,1.0,-0.231,0.678,0.743
+Memory median,-0.231,1.0,0.014,-0.24
+Total call rate,0.678,0.014,1.0,0.539
+Median response time,0.743,-0.24,0.539,1.0

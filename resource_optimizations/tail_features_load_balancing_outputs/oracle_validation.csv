@@ -1,0 +1,5 @@
+source,multiplier,overloaded_container_minutes_percent,overloaded_calls_percent,added_container_minutes,mean_excess_calls_per_second
+oracle,1.0,0.0,0.0,0.0,0.0
+oracle,1.5,0.0,0.0,90.0,0.0
+persistence,1.0,0.0,0.0,0.0,0.0
+persistence,1.5,0.0,0.0,79.0,0.0

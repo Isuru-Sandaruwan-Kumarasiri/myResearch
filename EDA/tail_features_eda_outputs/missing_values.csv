@@ -1,0 +1,11 @@
+table,column,missing_share
+MSResource,cpu_utilization,0.0001
+MSResource,memory_utilization,0.0001
+MSRTQps,HTTP_MCR,0.7658
+MSRTQps,HTTP_RT,0.7658
+MSRTQps,consumerMQ_MCR,0.3933
+MSRTQps,consumerMQ_RT,0.3933
+MSRTQps,consumerRPC_MCR,0.0254
+MSRTQps,consumerRPC_RT,0.0254
+MSRTQps,providerRPC_MCR,0.068
+MSRTQps,providerRPC_RT,0.068

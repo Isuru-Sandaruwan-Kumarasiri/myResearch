@@ -1,0 +1,4 @@
+minute,total_calls_per_second,rolling_median,service_rank_by_volume,service_share_of_excess
+83,78685245.227,12299085.087,2,1.001
+84,259066887.412,12299085.087,2,1.002
+628,84885188.5,10047411.248,3,0.998

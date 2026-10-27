@@ -1,0 +1,7 @@
+feature,median_percent,p95_percent,spearman_with_mean
+cpu_max,14.333,43.117,0.963
+cpu_p95,13.425,38.331,0.982
+cpu_std,1.343,4.586,0.773
+memory_max,64.987,83.539,0.965
+memory_p95,64.453,82.846,0.979
+memory_std,0.772,5.189,0.139

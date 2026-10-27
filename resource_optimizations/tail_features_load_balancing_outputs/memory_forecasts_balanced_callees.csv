@@ -1,0 +1,11 @@
+source,calibration_mae_memory_points,test_mae_memory_points,margin_memory_points,test_minutes_at_memory_risk
+DCRNN (snapshot),0.01,0.011,0.013,0.0
+TGCN (event stream),0.01,0.012,0.013,0.0
+DCRNN (event stream),0.01,0.012,0.012,0.0
+TGN (event stream),0.01,0.012,0.016,0.0
+TGCN (snapshot),0.011,0.013,0.013,0.0
+GraphMixer (event stream),0.011,0.014,0.017,0.0
+TGAT (event stream),0.012,0.014,0.019,0.0
+TGAT (snapshot),0.012,0.014,0.02,0.0
+GraphMixer (snapshot),0.013,0.015,0.02,0.0
+TGN (snapshot),0.025,0.029,0.054,0.0
