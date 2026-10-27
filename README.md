@@ -16,7 +16,121 @@ The full pipeline runs on **Databricks** (Apache Spark + GPU clusters) and store
 
 ## 🏗️ Research Architecture
 
-![Research Architecture Diagram](architecture_diagram.jpg)
+```mermaid
+flowchart TD
+    %% ── DATA SOURCE ──────────────────────────────────────────
+    DS[("🗄️ Alibaba Cluster Trace\nMicroservices v2021\n~60 GB raw CSV")]
+
+    %% ── STAGE 1: ETL ─────────────────────────────────────────
+    subgraph ETL["⚙️ Stage 1 · Data Ingestion & ETL  [ETL/ETL.py]"]
+        direction LR
+        E1["Extract .tar.gz\nThreadPoolExecutor"]
+        E2["Apache Spark 3\nPySpark AQE\n480 partitions"]
+        E3["Schema Enforcement\nLongType / DoubleType\n/ StringType"]
+        E4[("Parquet on S3\nSnappy compressed\netl_output_root/")]
+        E1 --> E2 --> E3 --> E4
+    end
+
+    %% ── STAGE 2: EDA ─────────────────────────────────────────
+    subgraph EDA["🔍 Stage 2 · Exploratory Data Analysis  [EDA/version_8.py]"]
+        direction TB
+        EDA1["MSResource\nCPU & Memory\ndistributions"]
+        EDA2["MSRTQps\nCall rate · Response time\nLoad imbalance"]
+        EDA3["MSCallGraph\nDegree distribution\nTop call edges"]
+        EDA4["Time-Series Analysis\nSTL · ACF/PACF\nADF · KPSS · Periodogram"]
+        EDA5["Tail Features EDA\np90 / p95 / p99\nParadigm distributions"]
+        EDA6[/"56 + 73 plots & CSVs\neda_outputs/\ntail_features_eda_outputs/"/]
+        EDA1 & EDA2 & EDA3 --> EDA4 --> EDA5 --> EDA6
+    end
+
+    %% ── STAGE 3: FEATURE ENGINEERING ────────────────────────
+    subgraph FE["🛠️ Stage 3 · Feature Engineering  [feature_engineering/]"]
+        direction TB
+        FE1["Aggregate to msname level\nNode-key alignment fix"]
+        FE2["Median imputation\nTrain-only fit · No leakage"]
+        FE3["Rolling windows\n5 · 10 · 30 min\nLag features 1 · 5 · 10 min"]
+        FE4["Tail features\np90 · p95 · p99\nCPU & Memory"]
+        FE5["Cyclical time encoding\nsin/cos · 720 min period"]
+        FE6["Edge features\nrpctype ordinal index\nCall count · Mean RT"]
+        FE7["70/15/15 Split\nTrain · Val · Test snapshots"]
+        FE8[("S3: tail_features/\ntgnn_dataset/\ntgnn_event_dataset/")]
+        FE1 --> FE2 --> FE3
+        FE2 --> FE4
+        FE2 --> FE5
+        FE2 --> FE6
+        FE3 & FE4 & FE5 & FE6 --> FE7 --> FE8
+    end
+
+    %% ── STAGE 4: TGNN FORECASTING ────────────────────────────
+    subgraph GNN["🧠 Stage 4 · Temporal GNN Forecasting  [forecsitng_models/]"]
+        direction TB
+        subgraph MODELS["5 Model Architectures"]
+            M1["TGCN\nGCN + GRU"]
+            M2["TGN\nMemory + Graph Attention"]
+            M3["TGAT\nTime-aware Attention"]
+            M4["DCRNN\nDiffusion Conv RNN"]
+            M5["GraphMixer\nMLP-Mixer + Neighbours"]
+        end
+        GNN1["Horizon-based prediction\nLast value + learned correction"]
+        GNN2["Random hyperparameter search\nEarly stopping on val MSE"]
+        GNN3["CPU Forecasting\ntgnn_cpu_..._tail.py"]
+        GNN4["Memory Forecasting\ntgnn_memory_..._tail.py"]
+        GNN5["Edge Overload Classifier\ntgnn_edge_overload_anomaly_tail.py"]
+        GNN6["Statistical Evaluation\n95% CI · Holm-adjusted p-values\nPersistence & rolling mean baselines"]
+        MODELS --> GNN1 --> GNN2
+        GNN2 --> GNN3 & GNN4 & GNN5
+        GNN3 & GNN4 & GNN5 --> GNN6
+    end
+
+    %% ── STAGE 5: RESOURCE OPTIMIZATION ──────────────────────
+    subgraph OPT["🚀 Stage 5 · Resource Optimization  [resource_optimizations/]"]
+        direction TB
+        OPT1["Capacity Model\nCPU = baseline + CPU_per_call x calls\nLinear regression per service"]
+        subgraph LB["Load Balancing Policies"]
+            LB1["Round Robin"]
+            LB2["Least Loaded"]
+            LB3["Weighted Routing"]
+            LB4["LP Optimization\nscipy.linprog"]
+        end
+        OPT2["GNN-Driven Allocation\nForecasted CPU as input\nRisky connections flagged"]
+        OPT3["Scale-Out\nNew containers when\ncapacity < demand"]
+        OPT4["Oracle Validation\nActual future demand\nas upper bound"]
+        OPT5["Evaluation\nPaired Wilcoxon · Holm-adjusted\nJain fairness index · Scaling cost"]
+        OPT1 --> LB1 & LB2 & LB3 & LB4
+        LB1 & LB2 & LB3 & LB4 --> OPT2 --> OPT3 --> OPT4 --> OPT5
+    end
+
+    %% ── OUTPUTS ──────────────────────────────────────────────
+    subgraph OUT["📊 Outputs"]
+        direction LR
+        O1["policy_summary.csv"]
+        O2["forecast_accuracy_balanced_callees.csv"]
+        O3["overloaded_connections.csv"]
+        O4["capacity_validation.csv"]
+        O5["allocation_minutes.csv"]
+        O6["paired_tests.csv"]
+    end
+
+    %% ── FLOW ─────────────────────────────────────────────────
+    DS --> ETL
+    ETL --> EDA
+    ETL --> FE
+    EDA -.->|"insights inform\nfeature selection"| FE
+    FE --> GNN
+    GNN --> OPT
+    OPT --> OUT
+
+    %% ── STYLES ───────────────────────────────────────────────
+    style ETL fill:#1e3a5f,color:#cce4ff,stroke:#4a90d9
+    style EDA fill:#3b1f5e,color:#e0ccff,stroke:#9b59b6
+    style FE  fill:#1a4a4a,color:#ccffff,stroke:#1abc9c
+    style GNN fill:#4a2800,color:#ffe0cc,stroke:#e67e22
+    style OPT fill:#1a3d1a,color:#ccffcc,stroke:#27ae60
+    style OUT fill:#2d2d2d,color:#ffffff,stroke:#888888
+    style MODELS fill:#3d1c00,color:#ffd9b3,stroke:#e67e22
+    style LB fill:#0f2b0f,color:#b3ffb3,stroke:#27ae60
+    style DS fill:#0d1117,color:#ffffff,stroke:#58a6ff
+```
 
 ---
 
